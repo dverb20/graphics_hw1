@@ -111,12 +111,12 @@ void init(){
   //Second part of array hold colors (offset by sizeof(triangle))
   glBufferSubData( GL_ARRAY_BUFFER, sizeof(triangle), sizeof(triangle_colors), triangle_colors );
   
-  glEnableVertexAttribArray(vpos_location);
-  glEnableVertexAttribArray( vcolor_location );
-  
   glVertexAttribPointer( vpos_location, 2, GL_FLOAT, GL_FALSE, 0, BUFFER_OFFSET(0) );
   glVertexAttribPointer( vcolor_location, 3, GL_FLOAT, GL_FALSE, 0, BUFFER_OFFSET(sizeof(triangle)) );
 
+  glEnableVertexAttribArray(vpos_location);
+  glEnableVertexAttribArray( vcolor_location );
+    
   glBindVertexArray(0);
   
   

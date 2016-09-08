@@ -1,0 +1,7 @@
+/Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/build/CMakeFiles/glad.dir
+/Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/build/CMakeFiles/HW1.dir
+/Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/build/CMakeFiles/ALL_BUILD.dir
+/Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/build/CMakeFiles/ZERO_CHECK.dir
+/Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/build/glfw-3.2/CMakeFiles/ALL_BUILD.dir
+/Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/build/glfw-3.2/CMakeFiles/ZERO_CHECK.dir
+/Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/build/glfw-3.2/src/CMakeFiles/glfw.dir
