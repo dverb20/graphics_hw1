@@ -36,6 +36,7 @@ void init(){
   GLint vpos_location, vcolor_location;
   GLuint tri_buffer;
   GLuint sq_buffer;
+  GLfloat width = 10;
   
   vec2 square[4]            = { vec2(-0.5, -0.5),
                                 vec2(-0.5,  0.5),
@@ -119,7 +120,7 @@ void init(){
     
   glBindVertexArray(0);
   
-  
+  glLineWidth(width);
   // Create a vertex array object
   glGenVertexArrays( 1, &sq_vao );
   //Set GL state to use vertex array object
