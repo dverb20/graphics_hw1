@@ -63,21 +63,19 @@ void init(){
 //                                vec3( 1.0, 0.0, 0.0),
 //                                vec3( 0.0, 1.0, 0.0)};
     int i;
-    int triangles = 25; // number of triangles
+    int triangles = 36; // number of triangles
     
     float twoPi = 2.0f * 3.14159f;
     
     glBegin(GL_TRIANGLE_FAN);
     
-    vec2 triangle[25]; //triangle[0] = vec2(0,0); // origin
-    vec3 triangle_colors[25]; //triangle_colors[0] = vec3(0,0,0);
+    vec2 triangle[37]; triangle[0] = vec2(0,0); // origin
+    vec3 triangle_colors[37]; triangle_colors[0] = vec3(0,0,0);
     
-    for(i = 0; i <= triangles; i=i+2) {
+    for(i = 0; i <= triangles; i++) {
         
-        triangle[i] = vec2((0.5 * cos(i *  twoPi / triangles)),
-                   (0.5 * sin(i * twoPi / triangles)));
-        triangle[i+1] = vec2(0,0);
-        triangle_colors[i] = vec3(0,0,0);
+        triangle[i+1] = vec2((0.5 * cos(i *  twoPi / 18)),
+                   (0.5 * sin(i * twoPi / 18)));
         triangle_colors[i+1] = vec3(0,0,0);
     }
     
@@ -233,7 +231,7 @@ int main(void)
       case _RENDER_TRIANGLE:
         glBindVertexArray( tri_vao );
         //glDrawArrays(GL_TRIANGLES, 0, 3);
-        glDrawArrays(GL_TRIANGLE_STRIP,0, 20);
+        glDrawArrays(GL_TRIANGLE_FAN,0, 20);
         break;
       case _RENDER_SQUARE:
         glBindVertexArray( sq_vao );
