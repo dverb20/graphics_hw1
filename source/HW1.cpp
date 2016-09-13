@@ -37,25 +37,51 @@ void init(){
   GLint vpos_location, vcolor_location;
   GLuint tri_buffer;
   GLuint sq_buffer;
-  GLfloat width = 10;
-  glLineWidth(width);
     
-  vec2 square[4]            = { vec2(-0.5, -0.5),
+  vec2 square[8]            = { vec2(-0.5, -0.5),
                                 vec2(-0.5,  0.5),
                                 vec2( 0.5, -0.5),
-                                vec2( 0.5,  0.5)};
+                                vec2( 0.5,  0.5),
+                                vec2(-0.5, -0.5),
+                                vec2(-0.5, 0.5),
+                                vec2( 0.5, 0.5),
+                                vec2( 0.5, -0.5)};
     
-  vec3 square_colors[4]     = { vec3( 0.5, 0.8, 0.98),
+  vec3 square_colors[8]     = { vec3( 0.5, 0.8, 0.98),
                                 vec3( 0.5, 0.8, 0.98),
                                 vec3( 0.5, 0.8, 0.98),
-                                vec3( 0.5, 0.8, 0.98),};
+                                vec3( 0.5, 0.8, 0.98),
+                                vec3( 0, 0, 0),
+                                vec3( 0, 0, 0),
+                                vec3( 0, 0, 0),
+                                vec3( 0, 0, 0),};
   
-  vec2 triangle[3]          = { vec2(-1.0, -1.0),
-                                vec2( 0.0,  1.0),
-                                vec2( 1.0, -1.0)};
-  vec3 triangle_colors[3]   = { vec3( 0.0, 0.0, 1.0),
-                                vec3( 1.0, 0.0, 0.0),
-                                vec3( 0.0, 1.0, 0.0)};
+//  vec2 triangle[3]          = { vec2(-1.0, -1.0),
+//                                vec2( 0.0,  1.0),
+//                                vec2( 1.0, -1.0)};
+//  vec3 triangle_colors[3]   = { vec3( 0.0, 0.0, 1.0),
+//                                vec3( 1.0, 0.0, 0.0),
+//                                vec3( 0.0, 1.0, 0.0)};
+    int i;
+    int triangles = 25; // number of triangles
+    
+    float twoPi = 2.0f * 3.14159f;
+    
+    glBegin(GL_TRIANGLE_FAN);
+    
+    vec2 triangle[25]; //triangle[0] = vec2(0,0); // origin
+    vec3 triangle_colors[25]; //triangle_colors[0] = vec3(0,0,0);
+    
+    for(i = 0; i <= triangles; i=i+2) {
+        
+        triangle[i] = vec2((0.5 * cos(i *  twoPi / triangles)),
+                   (0.5 * sin(i * twoPi / triangles)));
+        triangle[i+1] = vec2(0,0);
+        triangle_colors[i] = vec3(0,0,0);
+        triangle_colors[i+1] = vec3(0,0,0);
+    }
+    
+    glEnd();
 
   
   vec2 concave_poly[9]      = { vec2(0.44,  0.65),
@@ -206,11 +232,13 @@ int main(void)
     switch(current_draw){
       case _RENDER_TRIANGLE:
         glBindVertexArray( tri_vao );
-        glDrawArrays(GL_TRIANGLES, 0, 3);
+        //glDrawArrays(GL_TRIANGLES, 0, 3);
+        glDrawArrays(GL_TRIANGLE_STRIP,0, 20);
         break;
       case _RENDER_SQUARE:
         glBindVertexArray( sq_vao );
         glDrawArrays(GL_TRIANGLE_STRIP, 0, 4);
+        glDrawArrays(GL_LINE_LOOP, 4, 4);
         break;
      }
     

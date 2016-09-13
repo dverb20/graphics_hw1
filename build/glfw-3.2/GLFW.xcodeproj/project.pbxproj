@@ -9,22 +9,22 @@
 /* Begin PBXAggregateTarget section */
 		93FC5DE2337444AEAD94DABB /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = A6655B441A4A47DEB5CF3EDF /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = A7C1CB88FF0241278F9F6BDE /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
-				B149EB77B8714E38AC8D7185 /* CMake Rules */,
+				769B896A36D146AD887861D6 /* CMake Rules */,
 			);
 			dependencies = (
-				307BE08545164B9280EB87AA /* PBXTargetDependency */,
-				FBDDA26F5BDE400CACEEB3BF /* PBXTargetDependency */,
+				D9E99D8AF18448CD99FBE00E /* PBXTargetDependency */,
+				05857322BF4B48C787816EFC /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
 		AC2CB957ACEB4318A2AE2B71 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = DDB7092491A944F495088BDB /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 7C38FD6E780E4854A9D2D9AC /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
-				E4C69EA09459497EBE2E3CA6 /* CMake Rules */,
+				F0E302BA170148DE98760AFA /* CMake Rules */,
 			);
 			dependencies = (
 			);
@@ -34,56 +34,56 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		108413C31FB442EAA8977731 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/context.c */ = {isa = PBXBuildFile; fileRef = 77C857BEC6354F7F9BDB544B /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/context.c */; settings = {COMPILER_FLAGS = ""; }; };
-		11A70A79DB514725AA795623 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = 2008C5E9890543CA9D1872F3 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_init.m */; settings = {COMPILER_FLAGS = ""; }; };
-		1E45F3B00C714F1B86C62D61 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = AD198FF064C5464EA6D4F9B3 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/nsgl_context.m */; settings = {COMPILER_FLAGS = ""; }; };
-		2B22B8F9E4AE4196A7B5868C /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = FE7A93F6F02F4DE18A32E103 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_window.m */; settings = {COMPILER_FLAGS = ""; }; };
-		347B2EF18E7C4042B362C6AE /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = FF37E48FA7EB4410B1FE4AED /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_platform.h */; settings = {COMPILER_FLAGS = ""; }; };
-		3A113C8583F344D993ADE191 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/nsgl_context.h */ = {isa = PBXBuildFile; fileRef = 8C55E40FD0F44DBB8CE24AB8 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/nsgl_context.h */; settings = {COMPILER_FLAGS = ""; }; };
-		5654FAE71C3D4A80B48A5986 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = 390989A4C6E34EEBAE193D1F /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_time.c */; settings = {COMPILER_FLAGS = ""; }; };
-		5D428C4AA31C4C30950F603C /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/monitor.c */ = {isa = PBXBuildFile; fileRef = 7C0B61CB10B446F1AA538CE4 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/monitor.c */; settings = {COMPILER_FLAGS = ""; }; };
-		65D790746AC84ED7A9E1DFE7 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/init.c */ = {isa = PBXBuildFile; fileRef = 8BE820DA24D44422B1644D95 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/init.c */; settings = {COMPILER_FLAGS = ""; }; };
-		83C09004311741E3B0BEE871 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = 444BE58D40E04A4081E7DC1D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_joystick.h */; settings = {COMPILER_FLAGS = ""; }; };
-		84E0937DECE647EEBA44B14F /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/build/glfw-3.2/src/glfw_config.h */ = {isa = PBXBuildFile; fileRef = 8209C06D81084F1B99302AD9 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/build/glfw-3.2/src/glfw_config.h */; settings = {COMPILER_FLAGS = ""; }; };
-		884C9548644D451993113BED /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/input.c */ = {isa = PBXBuildFile; fileRef = 6365FA7F69C348879A1C3605 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/input.c */; settings = {COMPILER_FLAGS = ""; }; };
-		90A7A904710F4F6BAD828D14 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/internal.h */ = {isa = PBXBuildFile; fileRef = B72ED21CA8D54BABBD16B106 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/internal.h */; settings = {COMPILER_FLAGS = ""; }; };
-		9807AC20D0594411A924A920 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 41B2416650BE46778968971A /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
-		9DF533C1D6BB410E82ED1267 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = BF1414D7682640529CC0E90D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/include/GLFW/glfw3native.h */; settings = {COMPILER_FLAGS = ""; }; };
-		9F7A520DAA8B4DD5AE14034D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = C724A13E679F4815AEC286C7 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_monitor.m */; settings = {COMPILER_FLAGS = ""; }; };
-		BEC6002954E54220AFBF3AC1 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = 6CC27F2AC78048F1A3CECF0F /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_joystick.m */; settings = {COMPILER_FLAGS = ""; }; };
-		BFFFDE4A973A489BAC974DFA /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = E81EBC3A711F43C8A14C0F12 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/include/GLFW/glfw3.h */; settings = {COMPILER_FLAGS = ""; }; };
-		C98125EF962E41388C2AD3E2 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/posix_tls.c */ = {isa = PBXBuildFile; fileRef = 11B1A50A885E4F2CA810E676 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/posix_tls.c */; settings = {COMPILER_FLAGS = ""; }; };
-		CC6E3FA3ADBA4BCB98395AC8 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/posix_tls.h */ = {isa = PBXBuildFile; fileRef = E83C5709C2EF499782D0BAD0 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/posix_tls.h */; settings = {COMPILER_FLAGS = ""; }; };
-		E78C3A9A09024DF690BBD281 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/window.c */ = {isa = PBXBuildFile; fileRef = FAB7073AF00E47F5B8360729 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/window.c */; settings = {COMPILER_FLAGS = ""; }; };
-		FE555BB2D0CF4D1386E4091A /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/vulkan.c */ = {isa = PBXBuildFile; fileRef = 8C7EC9D16D18478D8D36965C /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/vulkan.c */; settings = {COMPILER_FLAGS = ""; }; };
+		0C3AAEACAD62463292B1A356 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/input.c */ = {isa = PBXBuildFile; fileRef = F5B9BB87EBEF4C84B6102F1E /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/input.c */; settings = {COMPILER_FLAGS = ""; }; };
+		12241B9E305F45939534B958 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/window.c */ = {isa = PBXBuildFile; fileRef = B246990D0BF7438E955ED534 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/window.c */; settings = {COMPILER_FLAGS = ""; }; };
+		18DFD59A8B1849749A2E4B93 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A4350429C4604D1384A60F09 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		26A663BA175B4D709F1A918C /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = 7AC8156F33E943A5BE5C4A3D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_init.m */; settings = {COMPILER_FLAGS = ""; }; };
+		3AB33AE8EF7C4329B7B3EC07 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = EB04FDED3F6B46B990D33A5D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/nsgl_context.m */; settings = {COMPILER_FLAGS = ""; }; };
+		3C56BAF2524442ADBBC550D7 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/build/glfw-3.2/src/glfw_config.h */ = {isa = PBXBuildFile; fileRef = 151EA47EA32F418B8E3F31F9 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/build/glfw-3.2/src/glfw_config.h */; settings = {COMPILER_FLAGS = ""; }; };
+		4ABA400C9550449F9FCC36A7 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/internal.h */ = {isa = PBXBuildFile; fileRef = 9C13D14F98AA4EC6BA8CA78E /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/internal.h */; settings = {COMPILER_FLAGS = ""; }; };
+		4B6F548CA50049C5BA3CD9CB /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = BE161D2113194329907A9AF0 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_window.m */; settings = {COMPILER_FLAGS = ""; }; };
+		5228548E5DF54ACCBA1B9497 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = EC778C422BF84133915DF38D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_joystick.m */; settings = {COMPILER_FLAGS = ""; }; };
+		54FD813F99724ED99FF453B5 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = 3439C7DA645746779EB3D83B /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_monitor.m */; settings = {COMPILER_FLAGS = ""; }; };
+		6E726AD3D6B841AA90C39DF9 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = A1DBBCE617C34032A4A4612B /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_time.c */; settings = {COMPILER_FLAGS = ""; }; };
+		718F5EDDDEBC4DC59634DAE2 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = 91457C4CD8304408BC3F153E /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_joystick.h */; settings = {COMPILER_FLAGS = ""; }; };
+		79BA9EE7E5874DED9C8F933D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/nsgl_context.h */ = {isa = PBXBuildFile; fileRef = 4CDF82330ABC4CA7ACA07F93 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/nsgl_context.h */; settings = {COMPILER_FLAGS = ""; }; };
+		82DA092BDED6454F8DAFF894 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = ECAC783A160C4549BF9454FA /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/include/GLFW/glfw3native.h */; settings = {COMPILER_FLAGS = ""; }; };
+		89281E4417A9437C9B14E272 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = 51FD1EC64E9B486EBB1E7E16 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_platform.h */; settings = {COMPILER_FLAGS = ""; }; };
+		93C02B5B571F4AFBBCF5548D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/monitor.c */ = {isa = PBXBuildFile; fileRef = 37A8DC7E523842FF9FBEFF4C /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/monitor.c */; settings = {COMPILER_FLAGS = ""; }; };
+		9FDA834B45094278919AF45D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = 00DCE9041B9A4A8CA0E43EAF /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/include/GLFW/glfw3.h */; settings = {COMPILER_FLAGS = ""; }; };
+		A4CC51D089E34FDF9C6004F2 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/posix_tls.c */ = {isa = PBXBuildFile; fileRef = 841C42B49C96435386166518 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/posix_tls.c */; settings = {COMPILER_FLAGS = ""; }; };
+		C02530980A984E0DA737E376 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/init.c */ = {isa = PBXBuildFile; fileRef = B94F80A766C74324A5EB6D0A /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/init.c */; settings = {COMPILER_FLAGS = ""; }; };
+		CFAD4AE00D904D478C9FE237 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/vulkan.c */ = {isa = PBXBuildFile; fileRef = 0873D3CA34544CC1B6FEC633 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/vulkan.c */; settings = {COMPILER_FLAGS = ""; }; };
+		D63C4F9BF6984C48AAF40D3D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/posix_tls.h */ = {isa = PBXBuildFile; fileRef = D447AA3F757C4707BB00AFE5 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/posix_tls.h */; settings = {COMPILER_FLAGS = ""; }; };
+		E1FC62BB2B7A4C4D85351D09 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/context.c */ = {isa = PBXBuildFile; fileRef = FA0C58AF307B48F19B2A25A1 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/context.c */; settings = {COMPILER_FLAGS = ""; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		3E34FACA611B41019D8FD9CA = {
+		42D75CAF5348411D81C510C2 = {
 			isa = PBXBuildStyle;
 		};
-		7989D1956E75440FAAEFC6E2 /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		853097C8BB00455D97B19DD1 /* Debug */ = {
+		4610E70A0D81400F9DBD9D56 /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Debug;
 		};
-		B9B6E85F5F254998BDD2A597 /* RelWithDebInfo */ = {
+		71B003ABAFB2488381D2AC2F /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		988ACC56D3804F1D956BA6DD /* RelWithDebInfo */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = RelWithDebInfo;
 		};
-		E15CD90112B44861B1460041 /* MinSizeRel */ = {
+		C6EA3FA3426648B99D63A9F0 /* MinSizeRel */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -93,168 +93,168 @@
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		1EC6714A6C614A56A2A88580 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DEAFA95DE10844E3A6EB709E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AC2CB957ACEB4318A2AE2B71;
-			remoteInfo = ZERO_CHECK;
-		};
-		C537E08C9F3046D09A384623 /* PBXContainerItemProxy */ = {
+		C50AD99B071D4EA1A40F0FAD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DEAFA95DE10844E3A6EB709E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 393CBA8BF8F746349C752B56;
 			remoteInfo = glfw;
 		};
+		E80F9644A151445F9E84F4AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEAFA95DE10844E3A6EB709E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC2CB957ACEB4318A2AE2B71;
+			remoteInfo = ZERO_CHECK;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E251775728A4CD79E7AFC72 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		11B1A50A885E4F2CA810E676 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/posix_tls.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_tls.c; path = src/posix_tls.c; sourceTree = SOURCE_ROOT; };
-		2008C5E9890543CA9D1872F3 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
-		390989A4C6E34EEBAE193D1F /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = src/cocoa_time.c; sourceTree = SOURCE_ROOT; };
-		41B2416650BE46778968971A /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		444BE58D40E04A4081E7DC1D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = src/cocoa_joystick.h; sourceTree = SOURCE_ROOT; };
-		50444A3D94784CCEAF91F03A /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
-		6365FA7F69C348879A1C3605 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = src/input.c; sourceTree = SOURCE_ROOT; };
-		6CC27F2AC78048F1A3CECF0F /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = src/cocoa_joystick.m; sourceTree = SOURCE_ROOT; };
-		77C857BEC6354F7F9BDB544B /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = src/context.c; sourceTree = SOURCE_ROOT; };
-		7C0B61CB10B446F1AA538CE4 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = src/monitor.c; sourceTree = SOURCE_ROOT; };
-		8209C06D81084F1B99302AD9 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/build/glfw-3.2/src/glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = "../build/glfw-3.2/src/glfw_config.h"; sourceTree = SOURCE_ROOT; };
-		8BE820DA24D44422B1644D95 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = src/init.c; sourceTree = SOURCE_ROOT; };
-		8C55E40FD0F44DBB8CE24AB8 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = src/nsgl_context.h; sourceTree = SOURCE_ROOT; };
-		8C7EC9D16D18478D8D36965C /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = src/vulkan.c; sourceTree = SOURCE_ROOT; };
-		AD198FF064C5464EA6D4F9B3 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
-		B72ED21CA8D54BABBD16B106 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = src/internal.h; sourceTree = SOURCE_ROOT; };
-		BF1414D7682640529CC0E90D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
-		C724A13E679F4815AEC286C7 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
-		D96B3687A8AD456381B22961 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		E81EBC3A711F43C8A14C0F12 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
-		E83C5709C2EF499782D0BAD0 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/posix_tls.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_tls.h; path = src/posix_tls.h; sourceTree = SOURCE_ROOT; };
-		FAB7073AF00E47F5B8360729 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = src/window.c; sourceTree = SOURCE_ROOT; };
-		FE7A93F6F02F4DE18A32E103 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
-		FF37E48FA7EB4410B1FE4AED /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
+		00DCE9041B9A4A8CA0E43EAF /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
+		0873D3CA34544CC1B6FEC633 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = src/vulkan.c; sourceTree = SOURCE_ROOT; };
+		0C9501DFC65743B2BA4C2517 /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		151EA47EA32F418B8E3F31F9 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/build/glfw-3.2/src/glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = "../build/glfw-3.2/src/glfw_config.h"; sourceTree = SOURCE_ROOT; };
+		3439C7DA645746779EB3D83B /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
+		37A8DC7E523842FF9FBEFF4C /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = src/monitor.c; sourceTree = SOURCE_ROOT; };
+		4165E7250996462FB0B700E1 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4CDF82330ABC4CA7ACA07F93 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = src/nsgl_context.h; sourceTree = SOURCE_ROOT; };
+		51FD1EC64E9B486EBB1E7E16 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
+		7AC8156F33E943A5BE5C4A3D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
+		841C42B49C96435386166518 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/posix_tls.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_tls.c; path = src/posix_tls.c; sourceTree = SOURCE_ROOT; };
+		91457C4CD8304408BC3F153E /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = src/cocoa_joystick.h; sourceTree = SOURCE_ROOT; };
+		91FE2740F9BB4A01B00E1846 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9C13D14F98AA4EC6BA8CA78E /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = src/internal.h; sourceTree = SOURCE_ROOT; };
+		A1DBBCE617C34032A4A4612B /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = src/cocoa_time.c; sourceTree = SOURCE_ROOT; };
+		A4350429C4604D1384A60F09 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B246990D0BF7438E955ED534 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = src/window.c; sourceTree = SOURCE_ROOT; };
+		B94F80A766C74324A5EB6D0A /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = src/init.c; sourceTree = SOURCE_ROOT; };
+		BE161D2113194329907A9AF0 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
+		D447AA3F757C4707BB00AFE5 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/posix_tls.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_tls.h; path = src/posix_tls.h; sourceTree = SOURCE_ROOT; };
+		EB04FDED3F6B46B990D33A5D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
+		EC778C422BF84133915DF38D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = src/cocoa_joystick.m; sourceTree = SOURCE_ROOT; };
+		ECAC783A160C4549BF9454FA /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
+		F5B9BB87EBEF4C84B6102F1E /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = src/input.c; sourceTree = SOURCE_ROOT; };
+		FA0C58AF307B48F19B2A25A1 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = src/context.c; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		068DA4D2ADFB4C28B418DD53 = {
-			isa = PBXGroup;
-			children = (
-				B5F75782F97F4207B908B2D8 /* Sources */,
-				F7A5C24A67094DCABAB68A75 /* Resources */,
-				E8B970CB4823401E9C3F8648 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		07335633416D46A694ED997D /* Header Files */ = {
-			isa = PBXGroup;
-			children = (
-				8209C06D81084F1B99302AD9 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/build/glfw-3.2/src/glfw_config.h */,
-				E81EBC3A711F43C8A14C0F12 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/include/GLFW/glfw3.h */,
-				BF1414D7682640529CC0E90D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/include/GLFW/glfw3native.h */,
-				444BE58D40E04A4081E7DC1D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_joystick.h */,
-				FF37E48FA7EB4410B1FE4AED /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_platform.h */,
-				B72ED21CA8D54BABBD16B106 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/internal.h */,
-				8C55E40FD0F44DBB8CE24AB8 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/nsgl_context.h */,
-				E83C5709C2EF499782D0BAD0 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/posix_tls.h */,
-			);
-			name = "Header Files";
-			sourceTree = "<group>";
-		};
-		835EAC4517F24B489EA9CED2 /* CMake Rules */ = {
+		081A35B47F1A48078011E60E /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		9A1F27F608FE40EE9C7094DC /* ALL_BUILD */ = {
+		22FD63BDD06B4364A13734BA = {
 			isa = PBXGroup;
 			children = (
-				835EAC4517F24B489EA9CED2 /* CMake Rules */,
-				0E251775728A4CD79E7AFC72 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/CMakeLists.txt */,
+				C906AB91BBCC49D9A0741A78 /* Sources */,
+				47CBC4FFA729491797C072D6 /* Resources */,
+				76AB9640759341BB90FC8AAD /* Products */,
 			);
-			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
-		A000944E19704CDA942CA089 /* glfw */ = {
+		33DC248BEA994B2197A61F72 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				C089E146A7B24402B66CB545 /* Source Files */,
-				07335633416D46A694ED997D /* Header Files */,
-				41B2416650BE46778968971A /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/CMakeLists.txt */,
-			);
-			name = glfw;
-			sourceTree = "<group>";
-		};
-		B14EF2EC8BE94043958452D3 /* CMake Rules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		B5F75782F97F4207B908B2D8 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				9A1F27F608FE40EE9C7094DC /* ALL_BUILD */,
-				FBC763FCECA0435EB2BE306B /* ZERO_CHECK */,
-				E9F9F8F6A5F749C5B2E2C91A /* GLFW3 */,
-			);
-			name = Sources;
-			sourceTree = "<group>";
-		};
-		C089E146A7B24402B66CB545 /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				2008C5E9890543CA9D1872F3 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_init.m */,
-				6CC27F2AC78048F1A3CECF0F /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_joystick.m */,
-				C724A13E679F4815AEC286C7 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_monitor.m */,
-				390989A4C6E34EEBAE193D1F /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_time.c */,
-				FE7A93F6F02F4DE18A32E103 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_window.m */,
-				77C857BEC6354F7F9BDB544B /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/context.c */,
-				8BE820DA24D44422B1644D95 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/init.c */,
-				6365FA7F69C348879A1C3605 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/input.c */,
-				7C0B61CB10B446F1AA538CE4 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/monitor.c */,
-				AD198FF064C5464EA6D4F9B3 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/nsgl_context.m */,
-				11B1A50A885E4F2CA810E676 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/posix_tls.c */,
-				8C7EC9D16D18478D8D36965C /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/vulkan.c */,
-				FAB7073AF00E47F5B8360729 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/window.c */,
+				7AC8156F33E943A5BE5C4A3D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_init.m */,
+				EC778C422BF84133915DF38D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_joystick.m */,
+				3439C7DA645746779EB3D83B /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_monitor.m */,
+				A1DBBCE617C34032A4A4612B /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_time.c */,
+				BE161D2113194329907A9AF0 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_window.m */,
+				FA0C58AF307B48F19B2A25A1 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/context.c */,
+				B94F80A766C74324A5EB6D0A /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/init.c */,
+				F5B9BB87EBEF4C84B6102F1E /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/input.c */,
+				37A8DC7E523842FF9FBEFF4C /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/monitor.c */,
+				EB04FDED3F6B46B990D33A5D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/nsgl_context.m */,
+				841C42B49C96435386166518 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/posix_tls.c */,
+				0873D3CA34544CC1B6FEC633 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/vulkan.c */,
+				B246990D0BF7438E955ED534 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/window.c */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
 		};
-		E8B970CB4823401E9C3F8648 /* Products */ = {
+		3D83D978D50C485395E8B6D4 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
-				50444A3D94784CCEAF91F03A /* glfw */,
 			);
-			name = Products;
+			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		E9F9F8F6A5F749C5B2E2C91A /* GLFW3 */ = {
+		4469EECE3227489C91C4D2C5 /* Header Files */ = {
 			isa = PBXGroup;
 			children = (
-				A000944E19704CDA942CA089 /* glfw */,
+				151EA47EA32F418B8E3F31F9 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/build/glfw-3.2/src/glfw_config.h */,
+				00DCE9041B9A4A8CA0E43EAF /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/include/GLFW/glfw3.h */,
+				ECAC783A160C4549BF9454FA /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/include/GLFW/glfw3native.h */,
+				91457C4CD8304408BC3F153E /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_joystick.h */,
+				51FD1EC64E9B486EBB1E7E16 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_platform.h */,
+				9C13D14F98AA4EC6BA8CA78E /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/internal.h */,
+				4CDF82330ABC4CA7ACA07F93 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/nsgl_context.h */,
+				D447AA3F757C4707BB00AFE5 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/posix_tls.h */,
 			);
-			name = GLFW3;
+			name = "Header Files";
 			sourceTree = "<group>";
 		};
-		F7A5C24A67094DCABAB68A75 /* Resources */ = {
+		47CBC4FFA729491797C072D6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		FBC763FCECA0435EB2BE306B /* ZERO_CHECK */ = {
+		6A26BD80E22C4ABCBD65E70D /* GLFW3 */ = {
 			isa = PBXGroup;
 			children = (
-				B14EF2EC8BE94043958452D3 /* CMake Rules */,
-				D96B3687A8AD456381B22961 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/CMakeLists.txt */,
+				F78EE9CDABF745ACA08CEB61 /* glfw */,
+			);
+			name = GLFW3;
+			sourceTree = "<group>";
+		};
+		76AB9640759341BB90FC8AAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C9501DFC65743B2BA4C2517 /* glfw */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C906AB91BBCC49D9A0741A78 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CE862A0B99A24ACB89B5624F /* ALL_BUILD */,
+				D1419F2F766B446B9817FA13 /* ZERO_CHECK */,
+				6A26BD80E22C4ABCBD65E70D /* GLFW3 */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		CE862A0B99A24ACB89B5624F /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				081A35B47F1A48078011E60E /* CMake Rules */,
+				4165E7250996462FB0B700E1 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		D1419F2F766B446B9817FA13 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				3D83D978D50C485395E8B6D4 /* CMake Rules */,
+				91FE2740F9BB4A01B00E1846 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/CMakeLists.txt */,
 			);
 			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		F78EE9CDABF745ACA08CEB61 /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				33DC248BEA994B2197A61F72 /* Source Files */,
+				4469EECE3227489C91C4D2C5 /* Header Files */,
+				A4350429C4604D1384A60F09 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/CMakeLists.txt */,
+			);
+			name = glfw;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +262,9 @@
 /* Begin PBXNativeTarget section */
 		393CBA8BF8F746349C752B56 /* glfw */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3500A6000123479399D8C438 /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildConfigurationList = 7839F27BB00D42B7800BED65 /* Build configuration list for PBXNativeTarget "glfw" */;
 			buildPhases = (
-				5458F86B5ABB42418A652183 /* Sources */,
+				DC3791E77EE34A49A1AFD98B /* Sources */,
 			);
 			buildRules = (
 			);
@@ -272,7 +272,7 @@
 			);
 			name = glfw;
 			productName = glfw;
-			productReference = 50444A3D94784CCEAF91F03A /* glfw */;
+			productReference = 0C9501DFC65743B2BA4C2517 /* glfw */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -284,18 +284,18 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 0730;
 			};
-			buildConfigurationList = 57CE3A8DA475434A9505C786 /* Build configuration list for PBXProject "GLFW" */;
+			buildConfigurationList = 3D696CBDE4594026BEEBF330 /* Build configuration list for PBXProject "GLFW" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				853097C8BB00455D97B19DD1 /* Debug */,
-				7989D1956E75440FAAEFC6E2 /* Release */,
-				E15CD90112B44861B1460041 /* MinSizeRel */,
-				B9B6E85F5F254998BDD2A597 /* RelWithDebInfo */,
+				4610E70A0D81400F9DBD9D56 /* Debug */,
+				71B003ABAFB2488381D2AC2F /* Release */,
+				C6EA3FA3426648B99D63A9F0 /* MinSizeRel */,
+				988ACC56D3804F1D956BA6DD /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 068DA4D2ADFB4C28B418DD53;
+			mainGroup = 22FD63BDD06B4364A13734BA;
 			projectDirPath = "../../glfw-3.2";
 			projectRoot = "";
 			targets = (
@@ -307,7 +307,7 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4AF43ED61DE54B87AFA1A6DD = {
+		20ACBE388D354E80B805CCE2 = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -322,7 +322,7 @@
 exit 0";
 			showEnvVarsInLog = 0;
 		};
-		79DCA298B495451BA7663FC1 = {
+		2C277D39A0F74D8A878A52B8 = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -337,7 +337,7 @@ exit 0";
 exit 0";
 			showEnvVarsInLog = 0;
 		};
-		B149EB77B8714E38AC8D7185 /* CMake Rules */ = {
+		769B896A36D146AD887861D6 /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -348,7 +348,7 @@ exit 0";
 			shellScript = "make -C /Users/dannyverb/Dropbox/Senior\\ Year/Graphics/hw1/build/glfw-3.2 -f /Users/dannyverb/Dropbox/Senior\\ Year/Graphics/hw1/build/glfw-3.2/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
-		E4C69EA09459497EBE2E3CA6 /* CMake Rules */ = {
+		F0E302BA170148DE98760AFA /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -362,43 +362,43 @@ exit 0";
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5458F86B5ABB42418A652183 /* Sources */ = {
+		DC3791E77EE34A49A1AFD98B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11A70A79DB514725AA795623 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_init.m */,
-				BEC6002954E54220AFBF3AC1 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_joystick.m */,
-				9F7A520DAA8B4DD5AE14034D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_monitor.m */,
-				5654FAE71C3D4A80B48A5986 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_time.c */,
-				2B22B8F9E4AE4196A7B5868C /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_window.m */,
-				108413C31FB442EAA8977731 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/context.c */,
-				65D790746AC84ED7A9E1DFE7 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/init.c */,
-				884C9548644D451993113BED /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/input.c */,
-				5D428C4AA31C4C30950F603C /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/monitor.c */,
-				1E45F3B00C714F1B86C62D61 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/nsgl_context.m */,
-				C98125EF962E41388C2AD3E2 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/posix_tls.c */,
-				FE555BB2D0CF4D1386E4091A /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/vulkan.c */,
-				E78C3A9A09024DF690BBD281 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/window.c */,
+				26A663BA175B4D709F1A918C /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_init.m */,
+				5228548E5DF54ACCBA1B9497 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_joystick.m */,
+				54FD813F99724ED99FF453B5 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_monitor.m */,
+				6E726AD3D6B841AA90C39DF9 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_time.c */,
+				4B6F548CA50049C5BA3CD9CB /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/cocoa_window.m */,
+				E1FC62BB2B7A4C4D85351D09 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/context.c */,
+				C02530980A984E0DA737E376 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/init.c */,
+				0C3AAEACAD62463292B1A356 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/input.c */,
+				93C02B5B571F4AFBBCF5548D /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/monitor.c */,
+				3AB33AE8EF7C4329B7B3EC07 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/nsgl_context.m */,
+				A4CC51D089E34FDF9C6004F2 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/posix_tls.c */,
+				CFAD4AE00D904D478C9FE237 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/vulkan.c */,
+				12241B9E305F45939534B958 /* /Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src/window.c */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		307BE08545164B9280EB87AA /* PBXTargetDependency */ = {
+		05857322BF4B48C787816EFC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = AC2CB957ACEB4318A2AE2B71 /* ZERO_CHECK */;
-			targetProxy = 1EC6714A6C614A56A2A88580 /* PBXContainerItemProxy */;
+			targetProxy = E80F9644A151445F9E84F4AB /* PBXContainerItemProxy */;
 		};
-		FBDDA26F5BDE400CACEEB3BF /* PBXTargetDependency */ = {
+		D9E99D8AF18448CD99FBE00E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 393CBA8BF8F746349C752B56 /* glfw */;
-			targetProxy = C537E08C9F3046D09A384623 /* PBXContainerItemProxy */;
+			targetProxy = C50AD99B071D4EA1A40F0FAD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1538E2B43E71474E96CF2B19 /* Release */ = {
+		11375033E5DB47E1BE342195 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -416,43 +416,9 @@ exit 0";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
 			};
-			name = Release;
-		};
-		186575A6C7754B9E85CB0988 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
-				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/build/glfw-3.2/build";
-			};
-			name = Release;
-		};
-		2110B09AEBAF4AEF95FA73F3 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", _GLFW_USE_CONFIG_H, );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/include\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/build/glfw-3.2/src\"", );
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = "       -DNDEBUG -fPIC -Wall  ";
-				OTHER_LIBTOOLFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = glfw3;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/build/glfw-3.2/src";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
 			name = RelWithDebInfo;
 		};
-		227952D7CCD6420C94EE32C9 /* Debug */ = {
+		13F85E13A0A4471BB9D05AEA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -472,36 +438,7 @@ exit 0";
 			};
 			name = Debug;
 		};
-		2DFBACDA3C34428D87DACA57 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/build/glfw-3.2";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = Release;
-		};
-		317016FB22394F548479615B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
-				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/build/glfw-3.2/build";
-			};
-			name = Debug;
-		};
-		44B9C74AE5064358AB4496A2 /* Release */ = {
+		1400BA4519004982B3760CDA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -526,101 +463,16 @@ exit 0";
 			};
 			name = Release;
 		};
-		605D3FB732EF4119B1811AE7 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", _GLFW_USE_CONFIG_H, );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/include\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/build/glfw-3.2/src\"", );
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = "    -DNDEBUG -fPIC -Wall  ";
-				OTHER_LIBTOOLFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = glfw3;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/build/glfw-3.2/src";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = MinSizeRel;
-		};
-		727CBF80FF3C46DA86C3A45D /* RelWithDebInfo */ = {
+		19FE52E0E23341EDBEB74E8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
 				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/build/glfw-3.2/build";
 			};
-			name = RelWithDebInfo;
-		};
-		74FCC373AC404A13996F4DD8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/build/glfw-3.2";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
 			name = Debug;
 		};
-		77AD67BD460A49F2BE3A7F54 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/build/glfw-3.2";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = RelWithDebInfo;
-		};
-		80E80E0C5A784F27B5AA7A77 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/build/glfw-3.2";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = MinSizeRel;
-		};
-		B775EAAC5F7F4FE49F08FC6E /* Debug */ = {
+		1A7B81CA4DB94AB180817C8B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -645,7 +497,7 @@ exit 0";
 			};
 			name = Debug;
 		};
-		CF8C737405754B7E9BE86879 /* RelWithDebInfo */ = {
+		32B1AB560AAE44CA818ABFC1 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -657,7 +509,7 @@ exit 0";
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
+				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/build/glfw-3.2";
 				USE_HEADERMAP = NO;
@@ -665,7 +517,27 @@ exit 0";
 			};
 			name = RelWithDebInfo;
 		};
-		F58CBA1172CF4AAB93AA8565 /* MinSizeRel */ = {
+		399AEF7C62C64919A97D41E5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/build/glfw-3.2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		39CAC3FA2C24455FAB95584F /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ONLY_ACTIVE_ARCH = YES;
@@ -674,7 +546,47 @@ exit 0";
 			};
 			name = MinSizeRel;
 		};
-		FE5AA36E161142859A6C30B6 /* MinSizeRel */ = {
+		420AF71213404C0F8504D4CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/build/glfw-3.2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		6DBCB8D0AB374703B8E91890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/build/glfw-3.2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		705BDCC3A355489195E26A85 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -694,49 +606,137 @@ exit 0";
 			};
 			name = MinSizeRel;
 		};
+		79E80960025D44ECA3C90D50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/build/glfw-3.2/build";
+			};
+			name = Release;
+		};
+		9CD1F17381EC439F8469768C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", _GLFW_USE_CONFIG_H, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/include\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/build/glfw-3.2/src\"", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC -Wall  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/build/glfw-3.2/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		B36DC011D96649F2A5083255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/build/glfw-3.2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		BCBD67FA202049949C08DCD9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", _GLFW_USE_CONFIG_H, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/include\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/glfw-3.2/src\"", "\"/Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/build/glfw-3.2/src\"", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG -fPIC -Wall  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/build/glfw-3.2/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		FC6E0618259046BA8D39C9D5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = "/Users/dannyverb/Dropbox/Senior Year/Graphics/hw1/build/glfw-3.2/build";
+			};
+			name = RelWithDebInfo;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3500A6000123479399D8C438 /* Build configuration list for PBXNativeTarget "glfw" */ = {
+		3D696CBDE4594026BEEBF330 /* Build configuration list for PBXProject "GLFW" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B775EAAC5F7F4FE49F08FC6E /* Debug */,
-				44B9C74AE5064358AB4496A2 /* Release */,
-				605D3FB732EF4119B1811AE7 /* MinSizeRel */,
-				2110B09AEBAF4AEF95FA73F3 /* RelWithDebInfo */,
+				19FE52E0E23341EDBEB74E8F /* Debug */,
+				79E80960025D44ECA3C90D50 /* Release */,
+				39CAC3FA2C24455FAB95584F /* MinSizeRel */,
+				FC6E0618259046BA8D39C9D5 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		57CE3A8DA475434A9505C786 /* Build configuration list for PBXProject "GLFW" */ = {
+		7839F27BB00D42B7800BED65 /* Build configuration list for PBXNativeTarget "glfw" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				317016FB22394F548479615B /* Debug */,
-				186575A6C7754B9E85CB0988 /* Release */,
-				F58CBA1172CF4AAB93AA8565 /* MinSizeRel */,
-				727CBF80FF3C46DA86C3A45D /* RelWithDebInfo */,
+				1A7B81CA4DB94AB180817C8B /* Debug */,
+				1400BA4519004982B3760CDA /* Release */,
+				9CD1F17381EC439F8469768C /* MinSizeRel */,
+				BCBD67FA202049949C08DCD9 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		A6655B441A4A47DEB5CF3EDF /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		7C38FD6E780E4854A9D2D9AC /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				74FCC373AC404A13996F4DD8 /* Debug */,
-				1538E2B43E71474E96CF2B19 /* Release */,
-				FE5AA36E161142859A6C30B6 /* MinSizeRel */,
-				CF8C737405754B7E9BE86879 /* RelWithDebInfo */,
+				13F85E13A0A4471BB9D05AEA /* Debug */,
+				6DBCB8D0AB374703B8E91890 /* Release */,
+				399AEF7C62C64919A97D41E5 /* MinSizeRel */,
+				32B1AB560AAE44CA818ABFC1 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		DDB7092491A944F495088BDB /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		A7C1CB88FF0241278F9F6BDE /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				227952D7CCD6420C94EE32C9 /* Debug */,
-				2DFBACDA3C34428D87DACA57 /* Release */,
-				80E80E0C5A784F27B5AA7A77 /* MinSizeRel */,
-				77AD67BD460A49F2BE3A7F54 /* RelWithDebInfo */,
+				B36DC011D96649F2A5083255 /* Debug */,
+				420AF71213404C0F8504D4CB /* Release */,
+				705BDCC3A355489195E26A85 /* MinSizeRel */,
+				11375033E5DB47E1BE342195 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
