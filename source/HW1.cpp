@@ -76,7 +76,15 @@ void init(){
         
         triangle[i+1] = vec2((0.5 * cos(i *  twoPi / 18)),
                    (0.5 * sin(i * twoPi / 18)));
-        triangle_colors[i+1] = vec3(0,0,0);
+        if (i%12 < 4 ){
+            triangle_colors[i+1] = vec3(1,0,0);
+        }
+        else if (i%12 > 3 && i%12 < 8){
+            triangle_colors[i+1] = vec3(0,0,1);
+        }
+        else if (i%12 > 7 ){
+            triangle_colors[i+1] = vec3(0,1,0);
+        }
     }
     
     glEnd();
