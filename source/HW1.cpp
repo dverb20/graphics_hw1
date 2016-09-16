@@ -76,16 +76,35 @@ void init(){
         
         triangle[i+1] = vec2((0.5 * cos(i *  twoPi / 18)),
                    (0.5 * sin(i * twoPi / 18)));
-        if (i < 6 ){
-            triangle_colors[i+1] = vec3(1,0,0);
-            std::cout << 1;
+        float j;
+        if (i < 3 ){
+            j = (i/3.0f);
+            triangle_colors[i+1] = vec3(1,0,j);
+            std::cout << j;
+        }
+        else if (i < 6){
+            j = (i/3.0f);
+            triangle_colors[i+1] = vec3((1-j),0,1);
+            std::cout << 2;
+        }
+        else if (i < 9){
+            j = (i/3.0f);
+            triangle_colors[i+1] = vec3(0,j,1);
+            std::cout << 2;
         }
         else if (i < 12){
-            triangle_colors[i+1] = vec3(0,1,0);
+            j = (i/3.0f);
+            triangle_colors[i+1] = vec3(0,1,(1-j));
+            std::cout << 2;
+        }
+        else if (i < 15){
+            j = (i/3.0f);
+            triangle_colors[i+1] = vec3(j,1,0);
             std::cout << 2;
         }
         else{
-            triangle_colors[i+1] = vec3(0,0,1);
+            j = (i/3.0f);
+            triangle_colors[i+1] = vec3(1,(1-j),0);
             std::cout << 3;
         }
     }
