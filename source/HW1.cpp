@@ -63,27 +63,30 @@ void init(){
 //                                vec3( 1.0, 0.0, 0.0),
 //                                vec3( 0.0, 1.0, 0.0)};
     int i;
-    int triangles = 36; // number of triangles
+    int triangles = 24; // number of triangles
     
     float twoPi = 2.0f * 3.14159f;
     
     glBegin(GL_TRIANGLE_FAN);
     
-    vec2 triangle[37]; triangle[0] = vec2(0,0); // origin
-    vec3 triangle_colors[37]; triangle_colors[0] = vec3(0,0,0);
+    vec2 triangle[25]; triangle[0] = vec2(0,0); // origin
+    vec3 triangle_colors[25]; triangle_colors[0] = vec3(1,1,1);
     
-    for(i = 0; i <= triangles; i++) {
+    for(i = 0; i < triangles; i++) {
         
         triangle[i+1] = vec2((0.5 * cos(i *  twoPi / 18)),
                    (0.5 * sin(i * twoPi / 18)));
-        if (i%12 < 4 ){
+        if (i < 6 ){
             triangle_colors[i+1] = vec3(1,0,0);
+            std::cout << 1;
         }
-        else if (i%12 > 3 && i%12 < 8){
-            triangle_colors[i+1] = vec3(0,0,1);
-        }
-        else if (i%12 > 7 ){
+        else if (i < 12){
             triangle_colors[i+1] = vec3(0,1,0);
+            std::cout << 2;
+        }
+        else{
+            triangle_colors[i+1] = vec3(0,0,1);
+            std::cout << 3;
         }
     }
     
