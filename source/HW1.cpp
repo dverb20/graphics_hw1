@@ -74,26 +74,29 @@ void init(){
     
     for(i = 0; i < triangles; i++) {
         
-        triangle[i+1] = vec2((0.5 * cos(i *  twoPi / 18)),
-                   (0.5 * sin(i * twoPi / 18)));
+        triangle[i+1] = vec2((0.5 * cos(i *  twoPi / (triangles-1))),
+                   (0.5 * sin(i * twoPi / (triangles-1))));
         float j;
-        if (i < 6 ){
-            j = (i/6.0f);
+        if (i < 8 ){
+            j = (i/8.0f);
             triangle_colors[i+1] = vec3(1,j,0);
-            std::cout << j;
         }
-        else if (i < 12){
-            j = (i%6)/6.0f;
+        else if (i == 8){
+            triangle_colors[i+1] = vec3(1,1,0);
+        }
+        else if (i < 16){
+            j = (i%8)/8.0f;
             triangle_colors[i+1] = vec3(0,1,j);
-            std::cout << 2;
         }
-        else if (i < 18){
-            j = (i%6)/6.0f;
+        else if (i == 16){
+            triangle_colors[i+1] = vec3(0,1,1);
+        }
+        else if (i < 23){
+            j = (i%8)/8.0f;
             triangle_colors[i+1] = vec3(j,0,1);
-            std::cout << 2;
         }
-        if (i == 18){
-            triangle_colors[i+1] = vec3(1,0,1);
+        if (i == 23){
+            triangle_colors[i+1] = vec3(1,0,0);
         }
 //        else if (i < 12){
 //            j = (i%3)/3.0f;
@@ -264,7 +267,7 @@ int main(void)
       case _RENDER_TRIANGLE:
         glBindVertexArray( tri_vao );
         //glDrawArrays(GL_TRIANGLES, 0, 3);
-        glDrawArrays(GL_TRIANGLE_FAN,0, 20);
+        glDrawArrays(GL_TRIANGLE_FAN,0, 25);
         break;
       case _RENDER_SQUARE:
         glBindVertexArray( sq_vao );
