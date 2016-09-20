@@ -87,10 +87,13 @@ void init(){
             triangle_colors[i+1] = vec3(0,1,j);
             std::cout << 2;
         }
-        else{
+        else if (i < 18){
             j = (i%6)/6.0f;
             triangle_colors[i+1] = vec3(j,0,1);
             std::cout << 2;
+        }
+        if (i == 18){
+            triangle_colors[i+1] = vec3(1,0,1);
         }
 //        else if (i < 12){
 //            j = (i%3)/3.0f;
